@@ -1,0 +1,65 @@
+* {
+	font-family: 'Rubik', sans-serif;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header span {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 40px;
+	color: #0030aa;
+	margin-bottom: 30px;
+}
+
+.header input {
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	width: 170px;
+}
+
+.header button {
+	padding: 10px;
+	font-size: 16px;
+	margin: 10px;
+	margin-right: 0;
+	background: #0066ff;
+	color: #fff;
+	border: none;
+}
+
+.header button:hover {
+	background: #003399;
+	border: none;
+	cursor: pointer;
+}
+
+.TaskItems {
+	list-style: none;
+	padding-left: 0;
+}
+
+.TaskItems li {
+	color: #0066ff;
+	font-size: 18px;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	list-style: none;
+
+	transition: background .2s ease-out;
+}
+
+.TaskItems li:hover {
+	background: pink;
+	cursor: pointer;
+}
+
+ul.TaskItems {
+	padding: 0;
+}
