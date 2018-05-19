@@ -22,6 +22,16 @@ class TaskList extends Component {
 		});
 	}
 
+	addEvent(event) {
+		event.preventDefault;
+
+		if (event.target.value !== '') {
+			this.processEvent(event.target.value)
+		} else {
+			return;
+		}
+	}
+
 	addTask(event) {
 		event.preventDefault()
 		if (this.state.currentTask === '') {
